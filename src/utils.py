@@ -109,7 +109,7 @@ def print_progress(iteration, total, length=100):
     if not Logger().debug_enabled():
         filled = length * iteration // total  # // is the Python floor division operator
         bar = '⯀' * filled + '-' * (length - filled)
-        print(f'\r{Color.WhiteLight}{bar}{Color.End}{iteration: {len(str(total))}d}/{total}', end='\r')
+        print(f'\r{Color.WhiteLight}{bar}{Color.End}{iteration:-{len(str(total))}d}/{total}  ', end='\r')
         if iteration == total:  # print New Line on Complete
             print()
 
