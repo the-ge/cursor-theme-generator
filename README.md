@@ -31,7 +31,7 @@ When you run it, the script makes a copy of the theme SVG in the *build* folder.
 
 In the end, the final structure of the theme, containing the cursors and the symlinks, together with the *cursor.theme* and *index.theme* files is created in the *dist* folder, in a folder named after the theme and the time of generation. If there are multiple SVG files in the *themes* folder, the script will loop over them and create a cursor theme from each one.
 
-### 1 Designing Your Own Cursors
+### 1. Designing Your Own Cursors
 
 You could jump directly the theme generation, but the themes are already available for download, so not much use in skipping the design phase. Which means:
 1. Open the theme SVG in Inkscape; the SVG's name will become the theme name (as in *Take 1*, note the space). It will also become the theme folder name, after replacing the non-alphanumeric characters with dashes (i.e. *Take-1*).
@@ -47,7 +47,7 @@ You could jump directly the theme generation, but the themes are already availab
 10. Hide the layers you don't need: *slices*, *background*, and depending on your theme, *shadows*
 11. Finally, you can save :D .
 
-### 2 Generating the Theme
+### 2. Generating the Theme
 
 If you edited the theme SVG file, make sure the layer *slices* is invisible.
 
