@@ -8,7 +8,7 @@
 
 from os import makedirs, path as ospath, scandir, symlink
 from argparse import ArgumentParser
-from shutil import rmtree, copyfile
+from shutil import copyfile, make_archive, rmtree
 from subprocess import DEVNULL, run
 from re import sub
 from datetime import datetime
@@ -24,27 +24,28 @@ log = Logger().get_logger(__name__)
 
 
 class Paths(object):
-    source_dir = 'themes'
+    source = './themes'
+    build_root = './build'
+    dist_root = './dist'
+    export = './export'
     source_file = 'cursors.svg'
-    build_dir = 'build'
     hotspots_dir = 'hotspots'
     pngs_dir = 'pngs'
-    dist_dir = 'dist'
     cursors_dir = 'cursors'
 
     def __init__(self, theme_dir):
-        self.build_path = f'./{self.build_dir}/{theme_dir}'
-        self.dist_path = f'./{self.dist_dir}/{theme_dir}'
-        self.export_source = f'{self.build_path}/{self.source_file}'
+        self.build = f'{self.build_root}/{theme_dir}'
+        self.dist = f'{self.dist_root}/{theme_dir}'
+        self.export_source = f'{self.build}/{self.source_file}'
 
     def export_file(self, name, size, prefix=''):
-        return f'{self.build_path}/{self.pngs_dir}/{size}/{prefix}{name}.png'
+        return f'{self.build}/{self.pngs_dir}/{size}/{prefix}{name}.png'
 
     def hotspots_file(self, cursor_name):
-        return f'{self.build_path}/{self.hotspots_dir}/{cursor_name}.cursor'
+        return f'{self.build}/{self.hotspots_dir}/{cursor_name}.cursor'
 
     def cursor_file(self, cursor_name):
-        return f'{paths.dist_path}/{paths.cursors_dir}/{cursor_name}'
+        return f'{paths.dist}/{paths.cursors_dir}/{cursor_name}'
 
 
 arg_parser = ArgumentParser(description='Generate PNGs of all sizes from the theme SVG.')
@@ -61,31 +62,31 @@ if args.debug:
     Logger().set_debug_mode(True)
 
 
-for t in [f for f in scandir(f'./{Paths.source_dir}') if f.name.lower().endswith('.svg') and f.is_file()]:
+for t in [f for f in scandir(f'{Paths.source}') if f.name.lower().endswith('.svg') and f.is_file()]:
     theme_name = ospath.splitext(t.name)[0]
-    theme_dir = sub('[^A-Za-z0-9_-]', '-', theme_name) + datetime.now().strftime('_%Y.%m.%d.%H%M%S')
+    theme_dir = sub('[^A-Za-z0-9_-]', '-', theme_name)
     paths = Paths(theme_dir)
 
     print()
     report(f'Starting generating the "{theme_name}" cursor theme...')
 
     report('Removing old assets...')
-    rmtree(paths.build_path, ignore_errors=True)
-    rmtree(paths.dist_path, ignore_errors=True)
+    rmtree(paths.build, ignore_errors=True)
+    rmtree(paths.dist, ignore_errors=True)
 
     # CLI command of the module
     # time $(./src/assets_generator.py -kt 'Mein Shadowed.svg' -b Mein-Shadowed -s 24 32 48)
     symlinks = CursorThemeAssetsGenerator().run(t.path, paths, sizes)
 
-    makedirs(f'{paths.dist_path}/cursors', exist_ok=True)
+    makedirs(f'{paths.dist}/cursors', exist_ok=True)
 
     log.info('Writing theme files.')
-    with open(f'{paths.dist_path}/cursor.theme', 'w') as f:
+    with open(f'{paths.dist}/cursor.theme', 'w') as f:
         f.write(f'[Icon Theme]\nName={theme_name}\nComment=Cursor theme made using The G\'s cursor theme generator (https://github.com/the-ge/cursor-theme-generator)\nInherits={theme_name}')
         f.close()
-    copyfile(f'{paths.dist_path}/cursor.theme', f'{paths.dist_path}/index.theme')
+    copyfile(f'{paths.dist}/cursor.theme', f'{paths.dist}/index.theme')
 
-    for h in [f for f in scandir(f'./{paths.build_dir}/{theme_dir}/{paths.hotspots_dir}') if f.name.endswith('.cursor') and f.is_file()]:
+    for h in [f for f in scandir(f'{paths.build}/{paths.hotspots_dir}') if f.name.endswith('.cursor') and f.is_file()]:
         job_tokens = ['sort', h.path, '-o', h.path]
         job = run(job_tokens, stdout=DEVNULL, stderr=DEVNULL)
         cursor_name = ospath.splitext(h.name)[0]
@@ -105,8 +106,12 @@ for t in [f for f in scandir(f'./{Paths.source_dir}') if f.name.lower().endswith
             except FileExistsError:
                 log.error(f'File {s} already exists.')
 
+    now = datetime.now().strftime('_%Y.%m.%d.%H%M%S')
+    makedirs(paths.export, exist_ok=True)
+    make_archive(f'{paths.export}/{theme_dir}.{now}', 'zip', './dist/', theme_dir)
+
     if not args.keep_tmp:
         log.info('Removing the /buid/ directory.')
-        rmtree(paths.build_path)
+        rmtree(paths.build)
 
     report(f'Finished generating the {theme_name} cursor theme.')

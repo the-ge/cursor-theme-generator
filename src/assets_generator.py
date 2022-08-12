@@ -48,11 +48,11 @@ class CursorThemeAssetsGenerator:
 
         report('Starting generating the cursor theme assets...')
 
-        work_source = f'{paths.build_path}/{paths.source_file}'
+        work_source = f'{paths.build}/{paths.source_file}'
 
         for size in sizes:
-            makedirs(f'{paths.build_path}/{paths.pngs_dir}/{size}')  # make dirs for each size of the cursors
-        makedirs(f'{paths.build_path}/{paths.hotspots_dir}')   # make dir for the hostspots files
+            makedirs(f'{paths.build}/{paths.pngs_dir}/{size}')  # make dirs for each size of the cursors
+        makedirs(f'{paths.build}/{paths.hotspots_dir}')   # make dir for the hostspots files
 
         copyfile(input_file, work_source)
 
