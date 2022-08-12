@@ -6,6 +6,7 @@
 import logging
 import sys
 from logging import handlers
+from datetime import datetime
 
 
 class Logger:
@@ -27,7 +28,7 @@ class Logger:
             cls.formatter = logging.Formatter(
                 "%(asctime)s — %(name)s — %(levelname)s — %(message)s"
             )
-            cls.log_file = "application_log_file.log"
+            cls.log_file = f"app.{datetime.now().strftime('%Y-%m-%d-%H%M%S')}.log"
 
         return cls._instance
 
