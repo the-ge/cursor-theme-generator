@@ -11,7 +11,7 @@ Maybe you want to just download the generated themes and install them:
 - [Take 1 Shadowed theme zipped](export/Take-1-Shadowed_2022.08.11.210307.zip)
 - [Take 1 White theme zipped](export/Take-1-White_2022.08.11.205447.zip).
 
-For installation, at least for now, I'll defer you to the [Gerhard's GitHub page](https://github.com/charakterziffer/cursor-toolbox#install).
+For the cursor theme installation, at least for now, I'll defer you to the [Gerhard's GitHub page](https://github.com/charakterziffer/cursor-toolbox#install).
 
 ## Requirements
 
