@@ -8,8 +8,8 @@
    inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
    xml:space="preserve"
    inkscape:export-filename="Take 1 White.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -186,8 +186,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.3949284"
-     inkscape:cx="127.56123"
-     inkscape:cy="129.4402"
+     inkscape:cx="128.39632"
+     inkscape:cy="167.01961"
      inkscape:document-units="px"
      inkscape:current-layer="cursors"
      showgrid="true"
@@ -2834,34 +2834,35 @@
        style="display:inline;stroke-width:0.5;stroke-dasharray:none;image-rendering:auto"
        inkscape:label="default" /><text
        xml:space="preserve"
-       style="font-size:8px;line-height:0%;white-space:pre;inline-size:293.175;display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+       style="font-size:6.66667px;line-height:0%;white-space:pre;inline-size:293.175;display:inline;fill:#f1ff00;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
        x="85.309593"
        y="386.13461"
        id="text4394"
        inkscape:label="text"
-       transform="matrix(0.9484146,0,0,1.0543912,-68.909768,-389.13694)"><tspan
+       transform="matrix(0.9484146,0,0,1.0543912,-74.844474,-393.85944)"><tspan
          x="85.309593"
          y="386.13461"
-         id="tspan1827"><tspan
-           style="line-height:1.1;font-family:'Source Sans Pro', 'Open Sans', Segoe, sans-serif;-inkscape-font-specification:'Source Sans Pro, Open Sans, Segoe, sans-serif'"
-           id="tspan1825">Take 1 by The G (github.com/the-ge/), 2022
+         id="tspan1277"><tspan
+           style="font-weight:bold"
+           id="tspan1273">Take 1</tspan><tspan
+           style="line-height:1.1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans'"
+           id="tspan1275"> cursor theme by The G (github.com/the-ge/, 2022), derived from Gerhard Großmann's </tspan></tspan><tspan
+         x="85.309593"
+         y="393.46797"
+         id="tspan1281"><tspan
+           style="line-height:1.1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans'"
+           id="tspan1279">cs-Viator and cz-Hickson sets (https://github.com/charakterziffer/cursor-toolbox).
 </tspan></tspan><tspan
          x="85.309593"
-         y="394.93459"
-         id="tspan1831"><tspan
-           style="line-height:1.1;font-family:'Source Sans Pro', 'Open Sans', Segoe, sans-serif;-inkscape-font-specification:'Source Sans Pro, Open Sans, Segoe, sans-serif'"
-           id="tspan1829">derived from Gerhard Großmann's cs-Viator and cz-Hickson sets
+         y="400.80131"
+         id="tspan1285"><tspan
+           style="line-height:1.1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans'"
+           id="tspan1283">
 </tspan></tspan><tspan
          x="85.309593"
-         y="403.73457"
-         id="tspan1835"><tspan
-           style="line-height:1.1;font-family:'Source Sans Pro', 'Open Sans', Segoe, sans-serif;-inkscape-font-specification:'Source Sans Pro, Open Sans, Segoe, sans-serif'"
-           id="tspan1833">(https://github.com/charakterziffer/cursor-toolbox).
-</tspan></tspan><tspan
-         x="85.309593"
-         y="412.53456"
-         id="tspan1841"><tspan
-           style="line-height:1.1;font-family:'Source Sans Pro', 'Open Sans', Segoe, sans-serif;-inkscape-font-specification:'Source Sans Pro, Open Sans, Segoe, sans-serif'"
-           id="tspan1837">                      </tspan><tspan
-           style="font-size:6.66667px"
-           id="tspan1839">* squares (unhide to edit): yellow = original, pink = clone, teal = non-standard</tspan></tspan></text></g></svg>
+         y="408.13465"
+         id="tspan1291"><tspan
+           style="line-height:1.1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans'"
+           id="tspan1287">                             </tspan><tspan
+           style="font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans'"
+           id="tspan1289">* squares (unhide to edit): yellow = original, pink = clone, teal = non-standard</tspan></tspan></text></g></svg>

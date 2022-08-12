@@ -8,8 +8,8 @@
    inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
    xml:space="preserve"
    inkscape:export-filename="Take 1.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="192"
+   inkscape:export-ydpi="192"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -141,10 +141,10 @@
        style="color-interpolation-filters:sRGB;"
        inkscape:label="Drop Shadow"
        id="filter3117"
-       x="-0.013166275"
-       y="-0.0080129311"
-       width="1.0300759"
-       height="1.019921"><feFlood
+       x="-0.013118271"
+       y="-0.0079932962"
+       width="1.0298805"
+       height="1.0198722"><feFlood
          flood-opacity="0.498039"
          flood-color="rgb(0,0,0)"
          result="flood"
@@ -174,7 +174,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.6608331"
-     inkscape:cx="123.73308"
+     inkscape:cx="124.9373"
      inkscape:cy="258.3041"
      inkscape:document-units="px"
      inkscape:current-layer="cursors"
@@ -1616,7 +1616,8 @@
        y="0"
        xlink:href="#text4394"
        id="use2418"
-       style="display:inline" /></g><g
+       style="display:inline"
+       transform="translate(6.0627488,6.5406054)" /></g><g
      inkscape:groupmode="layer"
      id="cursors"
      inkscape:label="cursors"
@@ -3564,32 +3565,33 @@
        style="display:inline;stroke-width:0.5;stroke-dasharray:none;image-rendering:auto"
        inkscape:label="default" /><text
        xml:space="preserve"
-       style="font-size:5.33333px;line-height:0%;white-space:pre;inline-size:293.175;display:inline;stroke-width:0.5;stroke-dasharray:none"
+       style="font-size:6.66667px;line-height:0%;white-space:pre;inline-size:293.175;display:inline;stroke-width:0.5;stroke-dasharray:none"
        x="85.309593"
        y="386.13461"
        id="text4394"
        inkscape:label="text"
-       transform="matrix(0.9484146,0,0,1.0543912,-68.909768,-389.13694)"><tspan
+       transform="matrix(0.9484146,0,0,1.0543912,-74.972517,-395.67755)"><tspan
          x="85.309593"
          y="386.13461"
-         id="tspan1555"><tspan
-           style="line-height:1.1;font-family:'Source Sans Pro', 'Open Sans', Segoe, sans-serif;-inkscape-font-specification:'Source Sans Pro, Open Sans, Segoe, sans-serif'"
-           id="tspan1553">Take 1 by The G (github.com/the-ge/), 2022
-</tspan></tspan><tspan
-         x="85.309593"
-         y="392.00128"
          id="tspan1559"><tspan
-           style="line-height:1.1;font-family:'Source Sans Pro', 'Open Sans', Segoe, sans-serif;-inkscape-font-specification:'Source Sans Pro, Open Sans, Segoe, sans-serif'"
-           id="tspan1557">derived from Gerhard Großmann's cz-Viator and cz-Hickson sets, https://github.com/charakterziffer/cursor-toolbox.
-</tspan></tspan><tspan
+           style="font-weight:bold"
+           id="tspan1555">Take 1</tspan><tspan
+           style="line-height:1.1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans'"
+           id="tspan1557"> cursor theme by The G (github.com/the-ge/, 2022) derived from Gerhard Großmann's </tspan></tspan><tspan
          x="85.309593"
-         y="397.86795"
+         y="393.46797"
          id="tspan1563"><tspan
-           style="line-height:1.1;font-family:'Source Sans Pro', 'Open Sans', Segoe, sans-serif;-inkscape-font-specification:'Source Sans Pro, Open Sans, Segoe, sans-serif'"
-           id="tspan1561">
+           style="line-height:1.1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans'"
+           id="tspan1561">cz-Viator and cz-Hickson sets, https://github.com/charakterziffer/cursor-toolbox.
 </tspan></tspan><tspan
          x="85.309593"
-         y="403.73462"
+         y="400.80131"
          id="tspan1567"><tspan
-           style="line-height:1.1;font-family:'Source Sans Pro', 'Open Sans', Segoe, sans-serif;-inkscape-font-specification:'Source Sans Pro, Open Sans, Segoe, sans-serif'"
-           id="tspan1565">* squares (unhide to edit): yellow = original, pink = clone, teal = non-standard</tspan></tspan></text></g></svg>
+           style="line-height:1.1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans'"
+           id="tspan1565">
+</tspan></tspan><tspan
+         x="85.309593"
+         y="408.13465"
+         id="tspan1571"><tspan
+           style="line-height:1.1;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans'"
+           id="tspan1569">                            * squares (unhide to edit): yellow = original, pink = clone, teal = non-standard</tspan></tspan></text></g></svg>
