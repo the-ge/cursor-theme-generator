@@ -34,7 +34,7 @@ In the end, the final structure of the theme, containing the cursors and the sym
 ### 1 Designing Your Own Cursors
 
 You could jump directly the theme generation, but the themes are already available for download, so not much use in skipping the design phase. Which means:
-1. Open the theme SVG in Inkscape; the SVG's name will become the theme name (as in *Take 1*, note the space). It will also become the theme folder name, after replacing the non-alphanumeric characters with dashes (i.e. *Take-1*').
+1. Open the theme SVG in Inkscape; the SVG's name will become the theme name (as in *Take 1*, note the space). It will also become the theme folder name, after replacing the non-alphanumeric characters with dashes (i.e. *Take-1*).
 2. Modify or design the cursors. A good Inkscape command comes in handy now.
 3. Remember to save often.
 4. Unhide the *slices* layer and note the hotspot coordinates as differences in pixels from the top-left rectangle corner.
