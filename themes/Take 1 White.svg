@@ -185,9 +185,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4848129"
-     inkscape:cx="161.29978"
-     inkscape:cy="231.67902"
+     inkscape:zoom="2.3949284"
+     inkscape:cx="127.56123"
+     inkscape:cy="129.4402"
      inkscape:document-units="px"
      inkscape:current-layer="cursors"
      showgrid="true"
@@ -217,7 +217,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="background"
-     style="display:inline"
+     style="display:none"
      transform="translate(0,-140)"
      sodipodi:insensitive="true"><rect
        style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linejoin:round;stroke-opacity:1;stop-color:#000000"
@@ -2834,7 +2834,7 @@
        style="display:inline;stroke-width:0.5;stroke-dasharray:none;image-rendering:auto"
        inkscape:label="default" /><text
        xml:space="preserve"
-       style="font-size:5.33333px;line-height:0%;white-space:pre;inline-size:293.175;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+       style="font-size:8px;line-height:0%;white-space:pre;inline-size:293.175;display:inline;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
        x="85.309593"
        y="386.13461"
        id="text4394"
@@ -2842,24 +2842,26 @@
        transform="matrix(0.9484146,0,0,1.0543912,-68.909768,-389.13694)"><tspan
          x="85.309593"
          y="386.13461"
-         id="tspan1963"><tspan
+         id="tspan1827"><tspan
            style="line-height:1.1;font-family:'Source Sans Pro', 'Open Sans', Segoe, sans-serif;-inkscape-font-specification:'Source Sans Pro, Open Sans, Segoe, sans-serif'"
-           id="tspan1961">Take 1 by The G (github.com/the-ge/), 2022
+           id="tspan1825">Take 1 by The G (github.com/the-ge/), 2022
 </tspan></tspan><tspan
          x="85.309593"
-         y="392.00128"
-         id="tspan1967"><tspan
+         y="394.93459"
+         id="tspan1831"><tspan
            style="line-height:1.1;font-family:'Source Sans Pro', 'Open Sans', Segoe, sans-serif;-inkscape-font-specification:'Source Sans Pro, Open Sans, Segoe, sans-serif'"
-           id="tspan1965">derived from Gerhard Großmann's cs-Viator and cz-Hickson sets (https://github.com/charakterziffer/cursor-toolbox).
+           id="tspan1829">derived from Gerhard Großmann's cs-Viator and cz-Hickson sets
 </tspan></tspan><tspan
          x="85.309593"
-         y="397.86795"
-         id="tspan1971"><tspan
+         y="403.73457"
+         id="tspan1835"><tspan
            style="line-height:1.1;font-family:'Source Sans Pro', 'Open Sans', Segoe, sans-serif;-inkscape-font-specification:'Source Sans Pro, Open Sans, Segoe, sans-serif'"
-           id="tspan1969">
+           id="tspan1833">(https://github.com/charakterziffer/cursor-toolbox).
 </tspan></tspan><tspan
          x="85.309593"
-         y="403.73462"
-         id="tspan1975"><tspan
+         y="412.53456"
+         id="tspan1841"><tspan
            style="line-height:1.1;font-family:'Source Sans Pro', 'Open Sans', Segoe, sans-serif;-inkscape-font-specification:'Source Sans Pro, Open Sans, Segoe, sans-serif'"
-           id="tspan1973">* squares (unhide to edit): yellow = original, pink = clone, teal = non-standard</tspan></tspan></text></g></svg>
+           id="tspan1837">                      </tspan><tspan
+           style="font-size:6.66667px"
+           id="tspan1839">* squares (unhide to edit): yellow = original, pink = clone, teal = non-standard</tspan></tspan></text></g></svg>
