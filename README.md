@@ -16,7 +16,7 @@ For installation, at least for now, I'll defer you to the [Gerhard's GitHub page
 ## Requirements
 
 * [**Python 3.10**](https://www.python.org/): While 3.9 or 3.8 could work, I wouldn't know, didn't try.
-* [**Inkscape**](https://inkscape.org/): I used the [1.2.1 version AppImage](https://inkscape.org/release/inkscape-1.2.1/gnulinux/appimage/). Again, older versions may interfere with this script. Or may not. Who knows ¯\_(ツ)_/¯ ?
+* [**Inkscape**](https://inkscape.org/): I used the [1.2.1 version AppImage](https://inkscape.org/release/inkscape-1.2.1/gnulinux/appimage/). Again, older versions may interfere with this script. Or may not. Who knows ¯\\_(ツ)_/¯ ?
 * **xcursorgen**: is a tool that allows for creation of cursor files from PNG files. Ubuntu 22.04 has it in the x11-apps package, I don't remember if it was already installed.
 
 ## How to use this generator
