@@ -7,9 +7,9 @@ This collection of files enables you to create a Linux (at least for now :D ) cu
 ![All cursors of my Take 1 White theme](doc/preview-take-1-white.png)
 
 Maybe you want to just download the generated themes and install them:
-- [Take 1 theme zipped](export/Take-1._2022.08.12.203458.zip)
-- [Take 1 Shadowed theme zipped](export/Take-1-Shadowed._2022.08.12.203917.zip)
-- [Take 1 White theme zipped](export/Take-1-White._2022.08.12.203046.zip).
+- [Take 1 theme zipped](export/take-1-2022-08-18-154638.zip)
+- [Take 1 Shadowed theme zipped](export/take-1-shadowed-2022-08-18-154235.zip)
+- [Take 1 White theme zipped](export/take-1-white-2022-08-18-155029.zip).
 
 For the cursor theme installation, at least for now, I'll defer you to the [Gerhard's GitHub page](https://github.com/charakterziffer/cursor-toolbox#install).
 

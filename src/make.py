@@ -82,7 +82,7 @@ for t in [f for f in scandir(f'{Paths.source}') if f.name.lower().endswith('.svg
 
     log.info('Writing theme files.')
     with open(f'{paths.dist}/cursor.theme', 'w') as f:
-        f.write(f'[Icon Theme]\nName={theme_name}\nComment=Cursor theme made using The G\'s cursor theme generator (https://github.com/the-ge/cursor-theme-generator)\nInherits={theme_name}')
+        f.write(f'[Icon Theme]\nName={theme_name}\nComment=Made using The G\'s cursor theme generator\nInherits={theme_name}')
         f.close()
     copyfile(f'{paths.dist}/cursor.theme', f'{paths.dist}/index.theme')
 
@@ -106,9 +106,8 @@ for t in [f for f in scandir(f'{Paths.source}') if f.name.lower().endswith('.svg
             except FileExistsError:
                 log.error(f'File {s} already exists.')
 
-    now = datetime.now().strftime('_%Y.%m.%d.%H%M%S')
     makedirs(paths.export, exist_ok=True)
-    make_archive(f'{paths.export}/{theme_dir}.{now}', 'zip', './dist/', theme_dir)
+    make_archive(f"{paths.export}/{theme_dir.lower()}-{datetime.now().strftime('%Y-%m-%d-%H%M%S')}", 'zip', './dist/', theme_dir)
 
     if not args.keep_tmp:
         log.info('Removing the /buid/ directory.')

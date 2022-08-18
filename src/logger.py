@@ -28,7 +28,7 @@ class Logger:
             cls.formatter = logging.Formatter(
                 "%(asctime)s — %(name)s — %(levelname)s — %(message)s"
             )
-            cls.log_file = f"app.{datetime.now().strftime('%Y-%m-%d-%H%M%S')}.log"
+            cls.log_file = f"{datetime.now().strftime('%Y-%m-%d-%H%M%S')}.log"
 
         return cls._instance
 
