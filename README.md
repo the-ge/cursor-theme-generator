@@ -1,6 +1,6 @@
 # The G's Cursor Theme Generator
 
-This collection of files enables you to create a Linux (at least for now :D ) cursor theme out of an SVG file. I used it to build my Take 1 cursor theme (original, IKR), included in this package. The script is heavily inspired by Gerhard Großmann's (@charakterziffer) [Toolbox for X11 Mouse Cursors](https://github.com/charakterziffer/cursor-toolbox). While this was intended to be just an updated fork, it changed way too much for that.
+This collection of files enables you to create a Linux (at least for now :D ) cursor theme out of an SVG file. I used it to build my Take 1 cursor theme (original name, IKR), included in this package. The script is heavily inspired by Gerhard Großmann's (@charakterziffer) [Toolbox for X11 Mouse Cursors](https://github.com/charakterziffer/cursor-toolbox). While this was intended to be just an updated fork, it changed way too much for that.
 
 ![All cursors of my Take 1 theme](doc/preview-take-1.png)
 ![All cursors of my Take 1 Shadowed theme](doc/preview-take-1-shadowed.png)
