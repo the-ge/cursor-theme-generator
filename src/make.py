@@ -18,7 +18,7 @@ from logger import Logger
 import logging
 
 
-default_sizes = '24 32 48 64 96 128'  # 24 32 48 64 96 128; 24 is required as the base for hotspots calculation
+default_sizes = '24'  # 24 32 48 64 96 128; 24 is required as the base for hotspots calculation
 logging.root.setLevel(logging.ERROR)  # DEBUG, INFO, WARNING, ERROR, CRITICAL
 log = Logger().get_logger(__name__)
 
